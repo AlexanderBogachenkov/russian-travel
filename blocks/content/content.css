@@ -1,0 +1,22 @@
+.content {
+    display: grid;
+    grid-row-gap: 92px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 1023px) {
+    .content {
+        grid-row-gap: 88px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .content {
+        /* grid-row-gap: 64px; */
+        padding-left: 16px;
+        padding-right: 16px;
+
+        
+    }
+}
