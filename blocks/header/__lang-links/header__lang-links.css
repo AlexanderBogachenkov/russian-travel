@@ -12,9 +12,12 @@
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    margin-right: 8px;
 
 }
-.header__lang-links li {
+
+/* .header__lang-links li {
     display: inline;
     margin-right: 8px;
 }
@@ -22,12 +25,12 @@
 .header__lang-links li:last-child {
     
     margin-right: 0;
-}
+} */
 
 @media screen and (max-width: 569px) {
     .header__lang-links {
         font-size: 18px;
         line-height: 20px;
-        
+
     }
 }

@@ -1,13 +1,15 @@
 .footer__link {
-font-family: 'Inter', Arial, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 18px;
-color: #FFFFFF;
-text-decoration: none;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+
 
 
 }
@@ -18,9 +20,3 @@ text-decoration: none;
         line-height: 24px;
     }
 }
-
-
-
-
-
-

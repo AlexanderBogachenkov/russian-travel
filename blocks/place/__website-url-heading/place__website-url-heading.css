@@ -1,23 +1,39 @@
 .place__website-url-heading {
     margin: 0;
-font-family: 'Inter', Arial, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 12px;
-/* identical to box height, or 100% */
-letter-spacing: 2px;
-color: #AAAAAA;
-
-margin-bottom: 12px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    text-transform: uppercase;
+    margin-bottom: 12px;
 }
 
-@media screen and (max-width: 767px) {
-    .place__website_url-heading {
+@media screen and (max-width: 1100px) {
+    .place__website-url-heading {
+
+
       
-    
-     margin-left: 16px;
-     margin-right: 16px;
+        /* padding-bottom: 0; */
+        margin-bottom: 6px;
+
+        /* or 110% */
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .place__website-url-heading {
+
+
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 0;
+        padding-bottom: 18px;
+
         /* or 110% */
     }
 }

@@ -15,20 +15,3 @@
     -moz-osx-font-smoothing: grayscale;
 
 }
-.header__lang-link li {
-    display: inline;
-    margin-right: 18px;
-}
-
-.header__lang-link li:last-child {
-    
-    margin-right: 0;
-}
-
-@media screen and (max-width: 569px) {
-    .header__lang-link {
-        font-size: 18px;
-        line-height: 20px;
-        
-    }
-}

@@ -6,11 +6,9 @@
     /* margin-bottom: 80px; */
 }
 
-/* @media screen and (max-width: 1030px) {
+@media screen and (max-width: 767px) {
     .place__image {
-        width: 440px;
-        height: 440px;
+        /* margin-top: -10px; */
+
     }
-} */
-
-
+}

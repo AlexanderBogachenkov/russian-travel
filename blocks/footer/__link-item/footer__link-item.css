@@ -1,0 +1,11 @@
+.footer__links-item {
+    /* display: inline; */
+    margin-right: 13px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__links-item {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+}

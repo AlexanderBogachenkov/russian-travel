@@ -1,14 +1,8 @@
-.intro__text {
-text-decoration: none;
-color: #FFFFFF;
-padding: 0;
-margin: 0;
-padding-inline-start: 0;
--webkit-padding-start: 0;
-
-
-
-
+.intro__lists {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
 
 
 }

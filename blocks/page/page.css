@@ -4,11 +4,21 @@
     /* font-family: 'Inter'; */
     /* font-weight: 400; */
     min-width: 320px;
-    max-height: 1280px;
-    min-height: 100vh;
+
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     padding: 28px 0 24px;
 
+}
+
+@media screen and (max-width: 767px) {
+    .page {
+        /* padding-top: 16px; */
+        padding-left: 0;
+        padding-right: 0;
+
+
+    }
 }
