@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 1023px) {
     .lead__image {
-        max-width: 768px;
+        width: 768px;
         /* width: 100vw; */
         height: auto;
         min-height: 100%;
