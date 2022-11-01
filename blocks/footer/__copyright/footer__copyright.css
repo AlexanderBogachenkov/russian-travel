@@ -1,4 +1,4 @@
-.footer__copyrigth {
+.footer__copyright {
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -11,9 +11,17 @@
     margin: 0;
 }
 
-@media screen and (max-width:767px) {
-    .footer__copyrigth {
+@media screen and (max-width:1023px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 10px;
+        margin-top: 0;
+    }
+}
 
+
+@media screen and (max-width:767px) {
+    .footer__copyright {
         line-height: 14px;
         margin-top: 0;
     }

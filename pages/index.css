@@ -5,7 +5,7 @@
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__content/page__content.css');
 
-@import url('../blocks/content/content.css');
+
 @import url('../blocks/content/__section/content__section.css');
 
 @import url('../blocks/cover/cover.css');
@@ -22,7 +22,7 @@
 
 
 @import url('../blocks/link/link.css');
-@import url('../blocks/link/__underline/link__underline.css');
+@import url('../blocks/link/_active/link_active.css');
 
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__caption/lead__caption.css');
@@ -57,38 +57,13 @@
 @import url('../blocks/place/__paragraphs/place__paragraphs.css');
 
 @import url('../blocks/footer/footer.css');
-@import url('../blocks/footer/__copyrigth/footer__copyrigth.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__links/footer__links.css');
-@import url('../blocks/footer/__link-item/footer__link-item.css');
+@import url('../blocks/footer/__link-item/footer__links-item.css');
 
 
 @import url('../blocks/footer/__navigation/footer__navigation.css');
 
 @import url('../blocks/animate-link/animate-link.css');
 
-
-
-
-
-
-
-
-
-/* * {outline: solid 1px red;} */
-
-
-
-
-/* * {
-    border: 1px red solid;
-}  */
-
-/* menu,
-ol,
-ul {
-    padding: 0;
-}
-dd {
-    margin: 0;
-} */

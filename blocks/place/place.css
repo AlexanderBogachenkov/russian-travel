@@ -3,20 +3,11 @@
     width: 984px;
     grid-template-columns: 460px 484px;
     grid-template-rows: auto 460px;
-
     column-gap: 40px;
     row-gap: 48px;
-
     margin: 0 auto;
     align-items: flex-end;
-
-
-    /* margin-top: 0; */
     margin-bottom: 80px;
-
-    /* margin-left: 48px;
-    margin-right: 48px; */
-
 }
 
 .place:last-child {
@@ -52,9 +43,7 @@
         grid-template-columns: 320px;
         grid-template-rows: auto;
         width: 320px;
-        margin-bottom: 32px;
+        margin-bottom: 50px;
         row-gap: 30px;
-        /* column-gap: 10px;         */
-
     }
 }

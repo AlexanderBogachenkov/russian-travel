@@ -15,20 +15,19 @@
         alt="Карта России"
       />
 
-      <ul class="header__lang-links link">
+      <ul class="header__lang-links">
         <li class="header__lang-link-item">
-          <a href="#" class="header__lang-link link__underline animate-link"
+          <a href="#" class="header__lang-link link link_active animate-link"
             >Ru</a
           >
         </li>
         <li class="header__lang-link-item">
-          <a href="#" class="header__lang-link animate-link">En</a>
+          <a href="#" class="header__lang-link link animate-link">En</a>
         </li>
       </ul>
     </header>
 
     <main class="page__content">
-      <!-- Убрал класс content - ломает верстку -->
       <section class="lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">
@@ -81,7 +80,7 @@
         </ul>
       </section>
 
-      <section class="photo-grid">
+      <section class="photo-grid" aria-label="Места России">
         <img
           class="photo-grid__item"
           src="./images/photo-grid-train.jpg"
@@ -144,7 +143,7 @@
         />
       </section>
 
-      <section class="places">
+      <section class="places" aria-label="Пять мест России">
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
@@ -362,7 +361,7 @@
           </li>
         </ul>
       </nav>
-      <p class="footer__copyrigth">&copy;&nbsp;2022. Александр Богаченков</p>
+      <p class="footer__copyright">&copy;&nbsp;2022. Александр Богаченков</p>
     </footer>
   </body>
 </html>

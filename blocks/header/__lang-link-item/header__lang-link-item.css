@@ -1,17 +1,8 @@
 .header__lang-link-item {
-
     margin-right: 18px;
 }
 
 .header__lang-link-item:last-child {
-
     margin-right: 0;
 }
 
-@media screen and (max-width: 569px) {
-    .header__lang-link-item {
-        font-size: 18px;
-        line-height: 20px;
-
-    }
-}
