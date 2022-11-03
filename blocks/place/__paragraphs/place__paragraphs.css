@@ -2,3 +2,11 @@
    align-self: flex-start;
    margin: 0 auto;
 }
+
+
+
+@media screen and (max-width: 767px) {
+   .place__paragraphs {
+      margin: 4px auto 20px;
+   }
+}

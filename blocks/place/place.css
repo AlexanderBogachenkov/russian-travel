@@ -43,8 +43,9 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         width: 300px;
-        /* margin-bottom: 50px; */
+        justify-content: center;
+        align-items: center;
         row-gap: 30px;
-        margin: 0 auto 50px;
+        margin: 0 auto 30px;
     }
 }

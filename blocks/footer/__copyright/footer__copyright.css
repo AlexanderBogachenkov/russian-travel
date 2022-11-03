@@ -22,7 +22,6 @@
 
 @media screen and (max-width:767px) {
     .footer__copyright {
-        line-height: 14px;
-        margin-top: 0;
+        line-height: 14px;        
     }
 }
