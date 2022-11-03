@@ -26,3 +26,10 @@
 
     }
 }
+
+@media screen and (max-width: 767px) {
+    .place__title {
+        margin: 0 0 0 8px;
+       
+    }
+}
